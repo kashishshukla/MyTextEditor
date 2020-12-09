@@ -305,7 +305,6 @@ def exit_func(event=None):
 file.add_command(label="Exit",image=exit_icon, compound=tk.LEFT,accelerator="Ctrl+Q",command=exit_func)
 
 ############ find functionality (edit box)
-#'''need to study find and replace part properly'''
 
 def find_func(event=None):
         def find():
